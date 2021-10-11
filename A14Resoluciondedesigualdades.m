@@ -1,7 +1,7 @@
 %Octave script
 %Title          : Inecuaciones en Octave
 %Descripcion    : Script de Octave que realizara el codigo que resuelva inecuaciones y graficas
-%Author         : Fernando Jesús Paredes MArtinez, Adrian Lovera Bombela 
+%Author         : Fernando JesÃºs Paredes Martinez, Adrian Lovera Bombela 
 %Date           : 202123322, 202123498
 %version        : 1.0
 %Usage          : <https://www.octave.org/missing.html>
