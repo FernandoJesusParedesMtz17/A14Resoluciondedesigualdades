@@ -13,6 +13,7 @@ disp("...:::Inecuaciones de Primer Grado:::...");
 disp(x+7<14);
 solve(x+7<14)
 
+
 x=[-20:7]
 y=x-7
 plot(x,y,'ro-',"markersize",10,"linewidth",3)
@@ -22,6 +23,7 @@ plot([0 0],[-15 15],'k-',"linewidth",5)
 plot(x,sign(y)*5,'bs-',"markersize",12)
 xlabel("Eje X","fontsize",20);
 title( "El intervalo es: (-oo,18)" )
+
 
 
 %Inecuaciones de Segundo Grado
