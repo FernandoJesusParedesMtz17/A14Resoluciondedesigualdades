@@ -2,8 +2,9 @@
 %Title          : Inecuaciones en Octave
 %Descripcion    : Script de Octave que realizara el codigo que resuelva inecuaciones y graficas
 %Author         : Fernando Jesús Paredes Martinez, Adrian Lovera Bombela 
-%Date           : 202123322, 202123498
-%version        : 1.0
+%Date           : 202123322, 202123498  y 202123174
+%Escuela: Tecnologico de Estudios superiores de Jilotepec
+ %version        : 1.0
 %Usage          : <https://www.octave.org/missing.html>
 
 pkg load symbolic
@@ -25,7 +26,6 @@ xlabel("Eje X","fontsize",20);
 title( "El intervalo es: (-oo,18)" )
 
 
-
 %Inecuaciones de Segundo Grado
 syms x
 disp("...:::Inecuaciones de Segundo grado:::...");
@@ -45,13 +45,11 @@ xlabel("Eje X","fontsize",20);
 title( "El intervalo es: (-oo,18)" ) 
 
 
-
 %Inecuaciones de Valor Absoluto
 syms x
 disp("...:::Inecuaciones de Valor Absoluto:::...")
 disp("|x-9|>2")
 solve(abs(x-9)>2)
-
 
 x=[-20:7]
 x=[11:100]
